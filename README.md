@@ -1,8 +1,6 @@
-Sainsburys Software Engineering Test
+Scraper
 ====================================
 
-In order to run the test please execute the following commands from the project root folder:
+## Unit tests
 
-* composer install
-* php bin/console scraper:product
-* phpunit
+`phpunit`
