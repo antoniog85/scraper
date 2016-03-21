@@ -53,7 +53,7 @@ class CollectionJson
         if ($response->getStatusCode() > 299) {
             return;
         }
-        $this->items[] = json_decode($response->getContent());
+        $this->items = json_decode($response->getContent());
     }
 
     /**
